@@ -31,14 +31,14 @@ Este proyecto forma parte de la certificación **Relational Database** de freeCo
    ```bash
    psql -U postgres < worldcup.sql
 
-2. **Otorgar permisos de ejecución a los scripts de automatización:
+2. **Otorgar permisos de ejecución** a los scripts de automatización:
    ```bash
    chmod +x insert_data.sh queries.sh
 
-3. **Poblar la base de datos ejecutando el script de inserción (asegúrate de contar con el archivo fuente games.csv en el mismo directorio):
+3. **Poblar la base de datos** ejecutando el script de inserción (asegúrate de contar con el archivo fuente games.csv en el mismo directorio):
    ```bash
    ./insert_data.sh
 
-4. **Ejecutar consultas estadísticas:
+4. **Ejecutar consultas estadísticas**:
    ```bash
    ./queries.sh
